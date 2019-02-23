@@ -1,9 +1,9 @@
 const routes = [
   {
-    path: "/",
+    path: "/api/",
     method: "GET",
     handler: (req, h) => {
-      return "Hello from Hapi.";
+      return "Welcome to Matchstick API.";
     }
   }
 ];
