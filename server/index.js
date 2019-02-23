@@ -5,8 +5,8 @@ const config = require("./config");
 const db = mongoose.connection;
 
 const server = hapi.Server({
-  host: "localhost",
-  port: 3000
+  host: config.host,
+  port: config.port
 });
 
 server.route(routes);
