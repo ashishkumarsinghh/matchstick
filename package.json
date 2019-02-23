@@ -1,0 +1,15 @@
+{
+  "name": "matchstick",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ashishkumarsinghh/matchstick.git",
+  "author": "ashish kumar singh <ashishkumarsinghh@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^18.1.0",
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "start": "nodemon ./server/index.js"
+  }
+}
